@@ -1,0 +1,25 @@
+{
+  "name": "masker-at-landing",
+  "version": "1.0.0",
+  "description": "Landing page for [masker.at](https://masker.at).",
+  "main": "index.html",
+  "scripts": {
+    "start": "tailwindcss -i style.css -o style-dist.css --watch",
+    "build": "NODE_ENV=production tailwindcss -i style.css -o style-dist.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masker-at/landing.git"
+  },
+  "author": "antonlyap",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/masker-at/landing/issues"
+  },
+  "homepage": "https://github.com/masker-at/landing#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
