@@ -1,2 +1,2 @@
-# landing
-Landing page for masker.at
+# Landing
+Landing page for [masker.at](https://masker.at).
