@@ -4,8 +4,8 @@
   "description": "Landing page for [masker.at](https://masker.at).",
   "main": "index.html",
   "scripts": {
-    "start": "tailwindcss -i style.css -o style-dist.css --watch",
-    "build": "NODE_ENV=production tailwindcss -i style.css -o style-dist.css"
+    "start": "tailwindcss -i src/style.css -o public/style.css --watch",
+    "build": "NODE_ENV=production tailwindcss -i src/style.css -o public/style.css"
   },
   "repository": {
     "type": "git",
