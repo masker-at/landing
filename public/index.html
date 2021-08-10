@@ -5,7 +5,212 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Masker@ - your email privacy</title>
+
     <link rel="stylesheet" href="/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="description" content="Masker@ is an anonymous mail relay service">
   </head>
-  <body></body>
+  <body>
+    <header class="h-20 shadow-md px-8 mb-12 flex items-center">
+      <img src="/img/logo.svg" width="155" height="32" class="h-10" alt="Masker@ logo" />
+    </header>
+
+    <h1 class="flex flex-wrap items-center justify-center text-4xl font-quicksand">
+      <img
+        src="/img/logo.svg"
+        width="155"
+        height="32"
+        class="w-auto h-10 mt-1 mr-2"
+        alt="Masker@ logo"
+      />
+      <span class="text-center">is your anonymous mail relay</span>
+    </h1>
+    <p class="mx-auto container font-quicksand text-center text-lg px-4">
+      With Masker@, you can create temporary email aliases which will forward incoming letters to
+      your inbox.
+    </p>
+
+    <h2 class="text-center font-quicksand text-2xl mt-5 mb-2">Features</h2>
+    <section class="flex flex-wrap container mx-auto px-2">
+      <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
+        <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/exchange-colored.svg" alt="" class="inline w-auto h-6" />
+          Send and receive emails
+        </h3>
+        <p>
+          Every alias acts like a separate email address &ndash; you can receive and send emails
+          from it just like from your regular email
+        </p>
+      </div>
+      <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
+        <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/padlock-colored.svg" alt="" class="inline w-auto h-8" />
+          Block an alias with one click
+        </h3>
+        <p>Getting too much spam from somebody? Just deactivate the alias!</p>
+      </div>
+    </section>
+    <section class="flex flex-wrap container mx-auto px-2">
+      <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
+        <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/no-spam-colored.svg" alt="" class="inline w-auto h-8" />
+          Spam and virus protection
+        </h3>
+        <p>Every email is checked before it reaches your inbox</p>
+      </div>
+      <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
+        <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/encryption-colored.svg" alt="" class="inline w-auto h-8" />
+          Fully encrypted
+        </h3>
+        <p>
+          All communication happens over SSL encryption. Your emails are stored on our servers
+          securely.
+          <br />
+          Don't want your mail stored? You can opt out.
+        </p>
+      </div>
+    </section>
+    <section class="flex flex-wrap container mx-auto px-2">
+      <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
+        <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/incognito-colored.svg" alt="" class="inline w-auto h-8" />
+          Private
+        </h3>
+        <p>
+          We don't analyze or share your data with anyone, and we make sure neither do any third
+          parties we work with
+        </p>
+      </div>
+      <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
+        <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/github-colored.svg" alt="" class="inline w-auto h-8" />
+          Open-source
+        </h3>
+        <p>
+          All parts of the service are transparent and open-source &ndash; you can find us on
+          <a
+            href="https://github.com/masker-at"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <h2 class="text-center font-quicksand text-2xl mt-5 mb-2">Use cases</h2>
+    <section class="flex flex-wrap container mx-auto px-2">
+      <div
+        class="
+          shadow-lg
+          flex-grow flex-shrink-0
+          mb-4
+          mx-2
+          p-5
+          rounded
+          flex
+          items-center
+          justify-center
+        "
+      >
+        <p class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/no-spam-colored.svg" alt="" class="inline w-auto h-6" />
+          Prevent spam
+        </p>
+      </div>
+      <div
+        class="
+          shadow-lg
+          flex-grow flex-shrink-0
+          mb-4
+          mx-2
+          p-5
+          rounded
+          flex
+          items-center
+          justify-center
+        "
+      >
+        <p class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/incognito-colored.svg" alt="" class="inline w-auto h-6" />
+          Hide your identity
+        </p>
+      </div>
+      <div
+        class="
+          shadow-lg
+          flex-grow flex-shrink-0
+          mb-4
+          mx-2
+          p-5
+          rounded
+          flex
+          items-center
+          justify-center
+        "
+      >
+        <p class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/incognito-colored.svg" alt="" class="inline w-auto h-6" />
+          Bypass sign up popups with ease
+        </p>
+      </div>
+      <div
+        class="
+          shadow-lg
+          flex-grow flex-shrink-0
+          mb-4
+          mx-2
+          p-5
+          rounded
+          flex
+          items-center
+          justify-center
+        "
+      >
+        <p class="text-xl font-quicksand text-primary-darker font-bold mb-2">
+          <img src="/img/icons/stopwatch-colored.svg" alt="" class="inline w-auto h-6" />
+          Alternative to temporary mail
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <p class="text-center text-4xl font-quicksand my-5">
+        We get too many unwanted emails.
+        <br />
+        It's time to stop it.
+      </p>
+      <div class="flex flex-wrap items-center justify-center text-3xl font-quicksand mb-20">
+        <img
+          src="/img/logo.svg"
+          width="155"
+          height="32"
+          class="w-auto h-7 mt-1 mr-2"
+          alt="Masker@ logo"
+        />
+        <span class="text-center">is coming soon</span>
+      </div>
+    </section>
+
+    <footer class="text-center">
+      Icons made by
+      <a href="https://www.freepik.com" title="Freepik">Freepik</a>,
+      <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">
+        Pixel perfect
+      </a>,
+      <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a>,
+      <a href="https://www.flaticon.com/authors/mavadee" title="mavadee">mavadee</a>,
+      <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </footer>
+  </body>
 </html>
