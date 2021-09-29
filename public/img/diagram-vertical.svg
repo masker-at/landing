@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="Arrow1Lend" overflow="visible" orient="auto">
+   <path transform="matrix(-.8 0 0 -.8 -10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#000" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Arrow1Lstart" overflow="visible" orient="auto">
+   <path transform="matrix(.8 0 0 .8 10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#000" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Arrow1Lend-1" overflow="visible" orient="auto">
+   <path transform="matrix(-.8 0 0 -.8 -10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#000" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Arrow1Lend-15" overflow="visible" orient="auto">
+   <path transform="matrix(-.8 0 0 -.8 -10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#000" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g fill="#000000" font-family="sans-serif" font-size="10.58px" letter-spacing="0px" stroke-width=".2646" word-spacing="0px">
+  <text x="45.908466" y="10.8239" style="line-height:1.25" xml:space="preserve"><tspan x="45.908466" y="10.8239" font-family="Quicksand" stroke-width=".2646">Service #1</tspan></text>
+  <text x="29.486761" y="67.388168" style="line-height:1.25" xml:space="preserve"><tspan x="29.486761" y="67.388168" font-family="Quicksand" stroke-width=".2646">Service #2</tspan></text>
+  <text x="51.843834" y="121.3558" style="line-height:1.25" xml:space="preserve"><tspan x="51.843834" y="121.3558" font-family="Quicksand" stroke-width=".2646">That Sketchy Website</tspan></text>
+ </g>
+ <g fill="#62bea8" font-family="sans-serif" font-size="7.408px" letter-spacing="0px" stroke-width=".2646" text-decoration="underline" word-spacing="0px">
+  <text x="29.04422" y="41.74926" style="line-height:1.25;text-decoration-line:underline" xml:space="preserve"><tspan x="29.04422" y="41.74926" fill="#62bea8" font-family="Quicksand" font-size="7.408px" font-weight="500" stroke-width=".2646">qog1ounaq6vkp29@masker.at</tspan></text>
+  <text x="36.079113" y="155.49474" style="line-height:1.25;text-decoration-line:underline" xml:space="preserve"><tspan x="36.079113" y="155.49474" fill="#62bea8" font-family="Quicksand" font-size="7.408px" font-weight="500" stroke-width=".2646">wh2x02p0re02wc8@masker.at</tspan></text>
+  <text x="47.526703" y="99.87812" style="line-height:1.25;text-decoration-line:underline" xml:space="preserve"><tspan x="47.526703" y="99.87812" fill="#62bea8" font-family="Quicksand" font-size="7.408px" font-weight="500" stroke-width=".2646">6870328nr71lvm2@masker.at</tspan></text>
+ </g>
+ <g transform="translate(-79.23 -.3789)">
+  <g fill="none" stroke="#000" stroke-width=".352">
+   <path d="m86.28 20.25v5.479h8.265v-5.479z"/>
+   <path d="m86.28 20.25 4.133 3.018 4.133-3.018"/>
+  </g>
+ </g>
+ <g transform="translate(-75.49 60.47)">
+  <g fill="none" stroke="#000" stroke-width=".352">
+   <path d="m86.28 20.25v5.479h8.265v-5.479z"/>
+   <path d="m86.28 20.25 4.133 3.018 4.133-3.018"/>
+  </g>
+ </g>
+ <g fill="none" stroke="#000">
+  <path d="m96.5 263.5v20.61h31.09v-20.61z" stroke-width=".524"/>
+  <path d="m96.5 263.5 15.55 11.35 15.55-11.35" stroke-width=".524"/>
+  <path d="m41.47 6.182s-25.33 1.711-29.91 11.98m-0.4363 8.43c-2e-3 5.383 10.49 11.32 10.49 11.32l2.666 1.13" marker-end="url(#Arrow1Lend)" stroke-width=".2646px"/>
+  <path d="m45.43 98.04c-12.02-0.11-24.85-2.794-30.5-10.71m-0.997-8.701c0.615-9.614 11.3-13.78 11.3-13.78l2.703-1.045" marker-start="url(#Arrow1Lstart)" stroke-width=".2646px"/>
+ </g>
+ <g transform="translate(-68.77 111.2)">
+  <g fill="none" stroke="#000" stroke-width=".352">
+   <path d="m86.28 20.25v5.479h8.265v-5.479z"/>
+   <path d="m86.28 20.25 4.133 3.018 4.133-3.018"/>
+  </g>
+ </g>
+ <path d="m52.2 118.6c-12.07 0.1114-24.94 2.83-30.61 10.85m-1.001 8.812c0.6172 9.737 11.34 13.95 11.34 13.95l2.713 1.058" fill="none" marker-end="url(#Arrow1Lend)" stroke="#000" stroke-width=".2668px"/>
+ <text x="179.99364" y="57.285507" fill="#000000" font-family="sans-serif" font-size="10.58px" letter-spacing="0px" stroke-width=".2646" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="179.99364" y="57.285507" stroke-width=".2646"/></text>
+ <g transform="translate(-67.94 141.9)">
+  <path d="m154.9 34.08c17.18 3.303 25.14-7.469 25.14-7.469s7.953 10.77 25.14 7.469c0 0-3.588 52.85-25.14 52.85-21.55 0-25.14-52.85-25.14-52.85z" fill="none" stroke="#62bea8" stroke-width="1.065"/>
+  <path d="m158.5 37.47c14.7 2.884 21.5-6.522 21.5-6.522s6.804 9.406 21.5 6.522c0 0-3.07 46.15-21.5 46.15-18.43 0-21.5-46.15-21.5-46.15z" fill="none" stroke="#62bea8" stroke-width="1.076"/>
+  <g transform="matrix(.3327 0 0 .3327 162.3 36.98)" stroke-width=".976" style="shape-inside:url(#rect10109);white-space:pre" aria-label="Masker@">
+   <path d="m25.3 47.78v23.83c0 0.7816 0.6481 1.43 1.43 1.43 0.7816 0 1.43-0.6481 1.43-1.43v-18.72l9.283 15.17c0.2287 0.3812 0.7816 0.6862 1.22 0.6862s0.9912-0.305 1.22-0.6862l9.322-15.19v18.81c0 0.7816 0.6481 1.43 1.43 1.43 0.7816 0 1.43-0.6481 1.43-1.43v-23.89c0-0.7816-0.6481-1.43-1.43-1.43-0.4384 0-0.9912 0.305-1.22 0.6862l-10.75 17.52-10.64-17.4c-0.2669-0.4384-0.8006-0.8197-1.296-0.8197-0.8387 0-1.43 0.7244-1.43 1.43z" style="shape-inside:url(#rect10109);white-space:pre"/>
+   <path d="m72.27 68.3c2.237 0 4.107-0.9353 5.49-2.155 1.139 1.464 2.745 2.298 4.738 2.298 4.494 0 6.893-4.189 6.893-8.418 0-0.4677-0.0203-0.976-0.0813-1.505-0.9353-8.235-8.133-15.35-16.35-15.35-9.862 0-16.8 8.296-16.8 16.57 0 8.804 6.771 16.63 16.16 16.63 1.932 0 3.884-0.366 5.856-1.118 0.976-0.366 1.545-1.179 1.545-2.237 0-1.078-0.549-1.891-1.627-1.891-0.4067 0-0.8337 0.122-1.322 0.2847-1.545 0.5287-3.009 0.8133-4.453 0.8133-7.117 0-12.12-5.795-12.12-12.55 0-6.364 5.368-12.28 12.75-12.28 6.303 0 12.32 5.693 12.32 12.65 0 2.135-0.8947 4.27-2.786 4.27-0.9963 0-1.891-0.6913-1.891-1.403v-9.963c0-1.118-0.915-2.033-2.033-2.033-0.8743 0-1.627 0.5693-1.911 1.383-1.362-0.8743-2.989-1.342-4.799-1.342-4.372 0-8.255 4.087-8.255 8.499 0 4.921 3.741 8.845 8.662 8.845zm-0.1627-13.24c2.501 0 4.473 2.054 4.494 4.616-0.0407 2.542-1.932 4.534-4.494 4.534-2.643 0-4.433-2.155-4.433-4.595 0-2.46 2.013-4.555 4.433-4.555z" fill="#62bea8"/>
+  </g>
+ </g>
+ <text x="86.603798" y="296.4671" fill="#000000" font-family="sans-serif" font-size="10.58px" letter-spacing="0px" stroke-width=".2646" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="86.603798" y="296.4671" font-family="Quicksand" stroke-width=".2646">Your inbox</tspan></text>
+ <g fill="none" stroke="#000">
+  <g stroke-width=".365">
+   <path d="m112.1 232.6v26.08" marker-end="url(#Arrow1Lend)"/>
+   <path d="m117.3 232.6v26.08" marker-end="url(#Arrow1Lend-1)"/>
+   <path d="m106.8 232.6v26.08" marker-end="url(#Arrow1Lend-15)"/>
+  </g>
+  <g stroke-width=".2646px">
+   <path d="m136.1 40.04s115.2 123.9-0.1445 168.9" marker-end="url(#Arrow1Lend)"/>
+   <path d="m149.1 98.68s53.77 40.33-9.268 99.51" marker-end="url(#Arrow1Lend)"/>
+   <path d="m143.6 153.4s12.15 11.92-2.283 32.33" marker-end="url(#Arrow1Lend)"/>
+  </g>
+ </g>
+</svg>

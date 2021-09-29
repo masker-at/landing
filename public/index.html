@@ -8,14 +8,37 @@
 
     <link rel="stylesheet" href="/style.css" />
 
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/quicksand-v24-latin-500.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/quicksand-v24-latin-700.woff2" crossorigin>
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/quicksand-v24-latin-500.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/quicksand-v24-latin-700.woff2"
+      crossorigin
+    />
 
-    <meta name="description" content="Masker@ is an anonymous mail relay service">
+    <meta name="description" content="Masker@ is an anonymous mail relay service" />
+
+    <script src="/js/menu.js" defer></script>
   </head>
   <body>
-    <header class="h-20 shadow-md px-8 mb-12 flex items-center">
+    <header class="h-20 shadow-md px-8 mb-12 flex items-center justify-between">
       <img src="/img/logo.svg" width="155" height="32" class="h-10" alt="Masker@ logo" />
+
+      <nav class="w-max flex-col sm:flex-row text-gray-500 sm:flex hidden" id="header-nav">
+        <a href="/" class="m-3 text-primary hover:underline font-quicksand font-bold no-underline">Home</a>
+        <a href="/pricing" class="m-3 text-gray-500 hover:underline font-quicksand font-bold no-underline">Pricing</a>
+        <a href="https://app.masker.at/login" class="m-3 text-primary border-2 border-primary p-2.5 rounded font-quicksand font-bold no-underline">Log in</a>
+        <a href="https://app.masker.at/sign-up" class="ml-3 my-3 text-white bg-primary p-3 rounded font-quicksand font-bold no-underline">Sign up</a>
+      </nav>
+
+      <button type="button" class="sm:hidden font-quicksand" id="menu-button">Menu &#x25be;</button>
     </header>
 
     <h1 class="flex flex-wrap items-center justify-center text-4xl font-quicksand">
@@ -33,7 +56,7 @@
       your inbox.
     </p>
 
-    <h2 class="text-center font-quicksand text-2xl mt-5 mb-2">Features</h2>
+    <h2 class="text-center font-quicksand text-3xl mt-5 mb-2">Features</h2>
     <section class="flex flex-wrap container mx-auto px-2">
       <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
         <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
@@ -41,13 +64,14 @@
           Hide your real email address
         </h3>
         <p>
-          Every alias acts like a separate email address &ndash; you can't be tracked and identified across different services
+          Every alias acts like a separate email address &ndash; you can't be tracked and identified
+          across different services
         </p>
       </div>
       <div class="shadow-lg flex-grow flex-shrink-0 w-56 mb-4 mx-2 p-5 rounded">
         <h3 class="text-xl font-quicksand text-primary-darker font-bold mb-2">
           <img src="/img/icons/padlock-colored.svg" alt="" class="inline w-auto h-8" />
-          Block an alias with one click
+          Block spammers with one click
         </h3>
         <p>Getting too much spam from somebody? Just deactivate the alias!</p>
       </div>
@@ -66,8 +90,8 @@
           Fully encrypted
         </h3>
         <p>
-          All communication happens over SSL encryption. We do not store emails, and your
-          login information is stored on our servers securely.
+          All communication happens over SSL encryption. We do not store emails, and your login
+          information is stored on our servers securely.
         </p>
       </div>
     </section>
@@ -89,23 +113,19 @@
         </h3>
         <p>
           All parts of the service are transparent and open-source &ndash; you can find us on
-          <a
-            href="https://github.com/masker-at"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/masker-at" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </p>
       </div>
     </section>
 
-    <h2 class="text-center font-quicksand text-2xl mt-5 mb-2">Use cases</h2>
+    <h2 class="text-center font-quicksand text-3xl mt-5 mb-2">Use cases</h2>
     <section class="flex flex-wrap container mx-auto px-2">
       <div
         class="
           shadow-lg
-          flex-grow flex-shrink-0
+          flex-grow
           mb-4
           mx-2
           p-5
@@ -123,7 +143,7 @@
       <div
         class="
           shadow-lg
-          flex-grow flex-shrink-0
+          flex-grow
           mb-4
           mx-2
           p-5
@@ -141,7 +161,7 @@
       <div
         class="
           shadow-lg
-          flex-grow flex-shrink-0
+          flex-grow
           mb-4
           mx-2
           p-5
@@ -159,7 +179,7 @@
       <div
         class="
           shadow-lg
-          flex-grow flex-shrink-0
+          flex-grow
           mb-4
           mx-2
           p-5
@@ -176,34 +196,73 @@
       </div>
     </section>
 
+    <h2 class="text-center font-quicksand text-3xl mt-5 mb-2">How it works</h2>
+    <section class="flex flex-col items-center mx-auto px-4">
+      <figure class="flex flex-col relative max-w-3xl">
+        <img src="/img/diagram-vertical.svg" alt="Diagram" class="my-4" />
+        <figcaption class="w-full">
+          <p class="my-2">
+            Masker@ works by creating new, unique email addresses (aliases) for you. Every time one
+            of these addresses receives a message, we check it for spam and forward it to your real
+            email if it has passed all checks.
+          </p>
+          <p>
+            That way, nobody knows your real email address. You can disable or delete an alias with
+            one click if you are receiving too many emails from someone.
+          </p>
+        </figcaption>
+      </figure>
+    </section>
+
     <section>
       <p class="text-center text-4xl font-quicksand my-5">
-        We get too many unwanted emails.
+        We get unwanted emails.
         <br />
         It's time to stop it.
       </p>
-      <div class="flex flex-wrap items-center justify-center text-3xl font-quicksand mb-20">
-        <img
-          src="/img/logo.svg"
-          width="155"
-          height="32"
-          class="w-auto h-7 mt-1 mr-2"
-          alt="Masker@ logo"
-        />
-        <span class="text-center">is coming soon</span>
+      <div class="flex flex-wrap items-center justify-center font-quicksand mb-20">
+        <a
+          class="text-white bg-primary no-underline font-bold p-3.5 rounded"
+          href="https://app.masker.at/sign-up"
+        >
+          Sign Up
+        </a>
+        <a
+          class="text-primary border-2 border-primary no-underline font-bold p-3 rounded ml-3"
+          href="/pricing"
+        >
+          View Pricing
+        </a>
       </div>
     </section>
 
-    <footer class="text-center">
-      Icons made by
-      <a href="https://www.freepik.com" title="Freepik">Freepik</a>,
-      <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">
-        Pixel perfect
-      </a>,
-      <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a>,
-      <a href="https://www.flaticon.com/authors/mavadee" title="mavadee">mavadee</a>,
-      <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    <footer class="bg-gray-700 text-gray-50 py-5">
+      <div class="max-w-5xl mx-auto px-4">
+        <section class="flex items-center flex-wrap">
+          <img src="/img/logo-square-light.svg" alt="Masker@ logo" class="mr-3">
+
+          <nav class="w-max flex-shrink">
+            <a href="/" class="text-primary hover:underline font-quicksand font-bold no-underline">Home</a>
+            <span> &#x2022; </span>
+            <a href="/pricing" class="text-gray-50 hover:underline font-quicksand font-bold no-underline">Pricing</a>
+            <span> &#x2022; </span>
+            <a href="https://app.masker.at/sign-up" class="text-gray-50 hover:underline font-quicksand font-bold no-underline">Sign up</a>
+            <span> &#x2022; </span>
+            <a href="https://app.masker.at/login" class="text-gray-50 hover:underline font-quicksand font-bold no-underline">Log in</a>
+          </nav>
+        </section>
+        <hr class="my-2">
+        <section>
+          Icons made by
+          <a href="https://www.freepik.com" title="Freepik" class="text-primary">Freepik</a>,
+          <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect" class="text-primary">
+            Pixel perfect </a
+          >, <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan" class="text-primary">Darius Dan</a>,
+          <a href="https://www.flaticon.com/authors/mavadee" title="mavadee" class="text-primary">mavadee</a>,
+          <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware" class="text-primary">Good Ware</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon" class="text-primary">www.flaticon.com</a>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
